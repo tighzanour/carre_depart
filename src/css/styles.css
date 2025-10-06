@@ -1,0 +1,23 @@
+/* Conservez ces lignes de css */
+
+@import url("https://web3.tim-momo.com/carre/styles.css");
+
+.back {
+  aspect-ratio: 5 / 7;
+}
+
+.carte {
+  aspect-ratio: 5 / 7;
+    display: grid;
+    grid-column: 1fr 3fr 1fr;
+
+}
+
+:root,
+[data-bs-theme=dark] {
+--bs-danger-rgb: 255, 0, 0;
+}
+
+.flip {
+  transform: scaleY(-1);
+}
